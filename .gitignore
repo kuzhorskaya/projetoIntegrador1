@@ -1,37 +1,22 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Compilação
+bin/
+obj/
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# IDE
+.vs/
+.vscode/
 
-# Logs and databases #
-######################
-*.log
-*.sql
+# Banco de dados (SQLite)
+*.db
 *.sqlite
+*.sqlite3
 
-# OS generated files #
-######################
+# Logs
+*.log
+
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+
+# App settings sensíveis (opcional, mas recomendado)
+appsettings.Development.json
