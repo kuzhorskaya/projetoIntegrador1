@@ -20,3 +20,6 @@ Thumbs.db
 
 # App settings sensíveis (opcional, mas recomendado)
 appsettings.Development.json
+
+app.db-wal
+app.db-shm
